@@ -1,0 +1,93 @@
+body {
+    background-color: aliceblue;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.contact-box {
+    width: 20%;
+    display: flex;
+    margin: 40px auto;
+    justify-content: left;
+    background-color: teal;
+    top: 50%;
+    padding: 20px;
+    border: 1px;
+    height: fit-content;
+    grid-gap: 20px;
+}
+
+.contact-info-box,
+.contact-box {
+    width: 50%;
+    padding: 10px;
+}
+
+label {
+    color: black;
+    font-size: 17px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contact-info-box {
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: rgb(143, 112, 216);
+    top: 20%;
+    align-content: center;
+    height: fit-content;
+    align-items: center;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: white;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode #theme-switch svg:first-child {
+    display: none;
+}
+
+.dark-mode #theme-switch svg:last-child {
+    display: block;
+}
